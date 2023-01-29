@@ -1,50 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
-</head>
-<body>
-   <div class="site-decistop">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Site-1</title>
+  </head>
+  <body>
     <div class="container">
-        <div class="title-box">
-            <h1 class="title-box__title">Dictionary</h1>
-        </div>
+      <div class="wrapper">
+        <h1 class="title">Dictionary</h1>
+        <form class="form">
+          <input type="text"class="input"placeholder="Write word">
+          <button type="submit" class="input-btn">Search</button>
+        </form>
+      </div>
+      <div class="word-box"></div>
     </div>
-
-   </div>
-
-   <div class="container">
-    <form class="form">
-        <input id="input" type="text" placeholder="Enter a word">
-        <button class="form-btn">Search</button>
-    </form>
-   </div>
-
-   <div class="container">
-    <div class="wrapper">
-        <div class="text-box">
-            <h2 class="text-box__title">Bye -  baɪ</h2>
-            <p class="text-box__text desc">The position of a person or team in a tournament or competition who draws no opponent in a particular
-            round so advances to the next round unopposed, or is awarded points for a win in a league table; also the phantom opponent of such a person or team.</p>
-            <p class="text-box__text1 example">Example:  “Craig's Crew plays the bye next week.”</p>
-            <p class="text-box__text text">"An extra scored when the batsmen take runs after the ball has passed the striker without hitting either the bat or the batsman."</p>
-            <p class="text-box__text1 example2">Example:  “Craig's Crew plays the bye next week.”</p>
-            <h5 class="text-box__title1 text2">"A dwelling."</h5>
-        </div>
-        <div class="box-content">
-            <div>
-                <img src="./img/audi-img.svg" alt="audi-img">
-            </div>
-            <div>
-                <p class="box-content-text">Play the word</p>
-            </div>
-        </div>
-    </div>
-   </div>
-   <script src="./scripts/app.js"></script>
-</body>
+    <script src="./js/app.js"></script>
+  </body>
 </html>
